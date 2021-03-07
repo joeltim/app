@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.json({I havent had a chance to fix this yet.});
+  res.json({"message":"alive"});
 });
 
 module.exports = router;
